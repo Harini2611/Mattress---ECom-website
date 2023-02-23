@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Stylesheet" href="Project styles.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="Project.js"> </script>
+<title>
+Log In
+</title>
+</head>
+<body class="ct">
+<div id="main">
+<div id="Head-group">
+ <img src="Logoo.png" id = "Website-logo" alt = "Website logo"> 
+ <h1 id="Header"> Plush Mattresses </h1>
+ </div>
+ <h5 id="tagline"> <i> "Come build the right make for your ache" </i> </h5>
+ <button id = "Home" class = "Header-buttons btn" onclick="document.location='Project.html'"> Home </button>
+ <button id = "Customization" class = "Header-buttons btn" onclick="document.location='ProjectCustomization.html'"> Customization </button>
+ <button id = "Contact-us" class = "Header-buttons btn" onclick="document.location='Projectcontact.html'"> Contact us </button>
+ <button id = "Log-in" class = "Header-buttons btn" onclick="document.location='Projectlogin.html'"> Log in </button>
+ </div>
+  <div id="BehindMain"> 
+ </div>
+ <br><br><br><br><br><br>
+ <div id="login-part">
+ <div>
+    <label for="username">Username:</label><br>
+    <input type="text" id="username" name="username">
+</div>
+<br>
+<div>
+    <label for="pass">Password (8 characters minimum):</label><br>
+    <input type="password" id="pass" name="password"
+           minlength="8" required>
+</div>
+<br>
+<input type="submit" value="Sign in"> 
+</div>
+ <footer>
+  <p>Creator: Harini Rajarathinam<br>
+  <a href="mailto:harini2611@gmail.com">harini2611@gmail.com</a></p>
+</footer>
+</body>
+</html>

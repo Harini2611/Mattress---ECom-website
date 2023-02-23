@@ -1,0 +1,87 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Stylesheet" href="Project styles.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="Project.js"> </script>
+<title>
+Customization
+</title>
+</head>
+<body class="ct">
+<div id="main">
+<div id="Head-group">
+ <img src="Logoo.png" id = "Website-logo" alt = "Website logo"> 
+ <h1 id="Header"> Plush Mattresses </h1>
+ </div>
+ <h5 id="tagline"> <i> "Come build the right make for your ache" </i> </h5>
+ <button id = "Home" class = "Header-buttons btn" onclick="document.location='Project.html'"> Home </button>
+ <button id = "Customization" class = "Header-buttons btn" onclick="document.location='ProjectCustomization.html'"> Customization </button>
+ <button id = "Contact-us" class = "Header-buttons btn" onclick="document.location='Projectcontact.html'"> Contact us </button>
+ <button id = "Log-in" class = "Header-buttons btn" onclick="document.location='Projectlogin.html'"> Log in </button>
+ </div>
+  <div id="BehindMain"> 
+ </div>
+ <br><br> <br><br> <br><br>
+ <div id="custom">
+ <div id="Materials" class="dropdown">
+  <button class="dropbtn glow-on-hover">Material</button>
+  <div class="dropdown-content"> 
+    <button id="a11">Innerspring</button>
+    <button id="a12">Hybrid</button>
+    <button id="a13">Memory Foam</button>
+	<button id="a14">Gel-infused</button>
+	<button id="a15">Polyfoam</button>
+	<button id="a16">Latex</button>
+  </div>
+</div>
+<div id="Colors" class="dropdown">
+  <button class="dropbtn glow-on-hover">Color</button>
+  <div class="dropdown-content">
+  <button id="a21">Azure</button>
+    <button id="a22">Ivory</button>
+    <button id="a23">Mulberry</button>
+	<button id="a24">Olive</button>
+	<button id="a25">Tan</button>
+  </div>
+</div>
+<div id="Sizes" class="dropdown">
+  <button class="dropbtn glow-on-hover">Size</button>
+  <div class="dropdown-content">
+  <button id="a31">California King</button>
+    <button id="a32">King</button>
+    <button id="a33">Queen</button>
+	<button id="a34">Double</button>
+	<button id="a35">Twin</button>
+	<button id="a36">Crib</button>
+  </div>
+</div>
+<br><br><br>
+   <img src="Materials.png" id = "Material" alt = "Mattress materials"> 
+   <img src="Colors.png" id = "Color" alt = "Mattress colors">
+   <img src="Size.png" id = "Size" alt = "Mattress sizesz">
+<div>
+ <p id="order-here"> <u>Your order is</u> </p>
+ <div id="choices">
+  <p id="material-choice"> Material : </p>
+   <p id="color-choice"> Color : </p>
+    <p id="size-choice"> Size : </p>
+	</div>
+ <button id = "Order" class = "Order glow-on-hover"> Order here </button>
+</div>
+</div>
+<div id="checkout-part">
+<table id="tb" cellspacing="0px" cellpadding="15px"><tr><td>
+ <p> Material : </p></td><td id="M1"></td></tr>
+ <tr><td> <p> Color : </p></td><td id="C1"></td></tr>
+ <tr><td> <p> Size : </p></td><td id="S1"></td></tr>
+ <tr><td><p> Price : </p></td><td id="P1"></td></tr>
+ <tr><td><button id = "Reject" class = "Checkout-buttons"> Reject </button></td>
+ <td><button id = "Confirm" class = "Checkout-buttons"> Confirm </button></td></tr>
+ </div>
+<footer>
+<p>Creator: Harini Rajarathinam<br>
+  <a href="mailto:harini2611@gmail.com">harini2611@gmail.com</a></p>
+</footer>
+</body>
+</html>

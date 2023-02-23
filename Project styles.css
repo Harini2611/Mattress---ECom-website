@@ -1,0 +1,407 @@
+
+	
+.parallax {
+	
+  background-image: url("Mainn.jpg");
+
+  min-height: 600px; 
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#main{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 18%;
+	background-image: -webkit-linear-gradient(
+45deg, white 20%, #b3daff 50%, #66b5ff 100%); 
+	color: #527a7a;
+	text-align:center;
+	font-size:25px;
+}
+#Website-logo{
+	float:left;
+	height: 100%;
+	bottom: 0%;
+	margin-left:30%;
+	margin-right:0%;
+	padding-top:2%;
+	
+	
+}
+
+.Header-buttons {
+  background-color:#4d79ff;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  zoom:1.2;
+}
+
+.Header-buttons:hover{
+	  background-color:#0056b3;
+}
+.dropdown {
+  padding-left:5%;
+  padding-right:0%;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #99d6ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content button {
+  padding: 12px 16px;
+  border: none;
+  color: black;
+  text-decoration: none;
+  display: block;
+  background: none;
+  margin-left :0;
+  margin-right: 0;
+  width:100%;
+  text-align:left;
+}
+
+.dropdown-content button:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #e6f2ff;}
+	
+#BehindMain{
+	height: 17%;
+	width: 100%;
+}
+
+#Material{
+	height:30%;
+	width:30%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+}
+
+#Color{
+	height:30%;
+	width:30%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+}
+
+#Size{
+	height:30%;
+	width:30%;
+	padding-left:1.5%;
+	padding-right:1.5%;
+}
+
+#Order{
+	float:right;
+	height:5%;
+	width:10%;
+}
+#Colors{
+	padding-left:21.3%
+}
+
+#Sizes{
+	padding-left:21.5%
+}
+
+#Materials{
+	padding-left:10%
+}
+
+#Memory-foam{
+	height:100%;
+	width:100%;
+}
+
+#Hybrid{
+	height:100%;
+	width:100%;
+
+}
+
+#Innerspring{
+	height:100%;
+	width:100%;
+}
+
+#Home-title{
+	text-align:center;
+    font-size:25px;
+	color: #527a7a;
+}
+
+#tagline{
+
+}
+
+#Header{
+	margin-left:4%;
+	
+	
+}
+
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+
+.flip-box-back {
+  background-color: #f1f1f1;
+  transform: rotateY(180deg);
+  color: #1a1a1a;
+}
+
+#beds{
+	display:flex;
+	padding-left:22.3%;
+	
+}
+
+#hybrid-pad{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#Head-group{
+	display:flex;
+	height:50%;
+}
+
+footer{
+	position:fixed;
+	float:bottom;
+	bottom:0%;
+}
+
+#order-here{
+	text-align:center;
+	color: #527a7a;
+}
+
+#choices{
+	margin-left:45%;
+	text-align:justify;
+	font-size:20;
+	
+}
+
+#order-here{
+	text-align:center;
+	font-size:36;
+	font-weight:700;
+}
+
+.mySlides {display: none;}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  margin-top: 6%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+#Details{
+	margin-left:42.3%;
+	zoom:1.5;
+	color: #527a7a;
+	
+}
+
+#login-part{
+	margin-left:42.3%;
+	zoom:1.5;
+
+}
+
+.glow-on-hover {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+	font-size:20;
+}
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: #000
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #111;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid rgb(146, 148, 248);
+  position: relative;
+  overflow: hidden;
+}
+
+.btn:hover {
+  box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+}
+
+.btn:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(146, 148, 248, 0.4),
+    transparent
+  );
+  transition: all 650ms;
+}
+
+.btn:hover:before {
+  left: 100%;
+}
+
+#checkout-part{
+	font-size:30;
+	margin-left:42%
+}
+
+.Checkout-buttons{
+	zoom:1.5;
+}
+.ct{
+background-image:url('BG.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+#tb{
+	font-size:30;
+	border:2px solid black;
+	}
+
+td{
+	border:2px solid black;
+}

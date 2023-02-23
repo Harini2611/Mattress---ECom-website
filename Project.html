@@ -1,0 +1,119 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="Stylesheet" href="Project styles.css"> 
+<title>
+Plush Mattresses
+</title>
+</head>
+<body class="ct">
+<div id="main">
+<div id="Head-group">
+ <img src="Logoo.png" id = "Website-logo" alt = "Website logo"> 
+ <h1 id="Header"> Plush Mattresses </h1>
+ </div>
+ <h5 id="tagline"> <i> "Come build the right make for your ache" </i> </h5>
+ <button id = "Home" class = "Header-buttons btn" onclick="document.location='Project.html'"> Home </button>
+ <button id = "Customization" class = "Header-buttons btn" onclick="document.location='ProjectCustomization.html'"> Customization </button>
+ <button id = "Contact-us" class = "Header-buttons btn" onclick="document.location='Projectcontact.html'"> Contact us </button>
+ <button id = "Log-in" class = "Header-buttons btn" onclick="document.location='Projectlogin.html'"> Log in </button>
+ </div>
+  <div id="BehindMain"> 
+ </div>
+ <div class="parallax"></div>
+ <div id="Home-title"> <h1> <u>Our specials</u></h1> </div>
+ <div id="beds"> 
+ <div class="flip-box">
+  <div class="flip-box-inner">
+  <div class="flip-box-front">
+ <img src="1.jpg" id = "Memory-foam" alt = "Memory foam">
+ </div>
+ <div class="flip-box-back">
+ <h2>Memory-foam</h2>
+ <p> Memory foam contours to the body, using your own body heat and pressure to conform to your shape. This can provide relief in areas of the body we put the most pressure on during sleep, such as the hips, shoulders, and neck.</p>
+ </div>
+ </div>
+ </div>
+ <div id="hybrid-pad" class="flip-box">
+  <div class="flip-box-inner">
+  <div class="flip-box-front">
+ <img src="2.jpg" id = "Hybrid" alt = "Hybrid">
+ </div>
+ <div class="flip-box-back">
+ <h2>Hybrid</h2>
+ <p>Hybrid mattresses are engineered with innerspring coils that support the base of your bed and a top layer of either latex or memory foam for supplementary comfort. The combination of these features makes hybrid mattresses perfect for a supportive yet comfortable night's sleep.</p>
+ </div>
+ </div>
+ </div>
+ <div>
+ <div class="flip-box">
+  <div class="flip-box-inner">
+  <div class="flip-box-front">
+ <img src="3.jpg" id = "Innerspring" alt = "Innerspring">
+ </div>
+ <div class="flip-box-back">
+ <h2>Innerspring</h2>
+ <p>Whether you're a side sleeper, back sleeper, or stomach sleeper, you can sleep comfortably on an innerspring mattress. And if you tend to shift positions during the night, the inherent "springiness" makes it easy to move across the surface of the mattress.</p>
+ </div>
+ </div>
+ </div>
+ </div>
+ </div>
+ <div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="Testimonies-1.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Testimonies-2.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Testimonies-3.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Testimonies-4.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="Testimonies-5.png" style="width:100%">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+<footer>
+  <p>Creator: Harini Rajarathinam<br>
+  <a href="mailto:harini2611@gmail.com">harini2611@gmail.com</a></p>
+</footer>
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); 
+}
+</script>
+</body>
+</html>
